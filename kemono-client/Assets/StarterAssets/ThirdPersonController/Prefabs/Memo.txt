@@ -1,0 +1,23 @@
+備忘録
+
+●キャラクター
+⇒ThiedPersonControllerのキャラクターをUnityちゃんに差し替えて利用しました。
+----------
+★設定済みUnityちゃん
+ThiedPersonController＞「_SD_unitychan_humanoid」※プレハブ
+
+
+▽別レベルでキャラクターを動かすためには
+
+１：①「設定済みUnityちゃん」とThiedPersonControllerのPrefabsにある
+　　②「MainCamera」③「PlayerFollowCamera」
+　　を同レベルに配置する。（階層はきにしないでよい）
+
+２：③のみ設定が必要。
+　　Inspector内「CinemachineVirtualCamera」＞FollowをNoneから※LookPosに変更する
+
+　　※　Hierarcheyについかした①の階層を開き
+　　　「LookPos」をドラックアンドドロップする。
+　　
+
+　　
